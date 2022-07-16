@@ -1,0 +1,10 @@
+﻿Console.Write("Введите координату x1 A:");
+int x1 = Convert.Int32(System.Console.WriteLine());
+Console.Write("Введите координату y1 A:");
+int y1 = Convert.Int32(System.Console.WriteLine());
+Console.Write("Введите координату x2 B:");
+int x2 = Convert.Int32(System.Console.WriteLine());
+Console.Write("Введите координату y2 B:");
+int y2 = Convert.Int32(System.Console.WriteLine());
+double resultAB = Math.Sqrt(Math.Pow(x2-x1, 2) + Math.Pow(y2-y1, 2));
+System.Console.WriteLine(Math.Round(resultAB));
